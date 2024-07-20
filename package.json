@@ -4,9 +4,13 @@
   "description": "��#\u0000 \u0000J\u0000e\u0000n\u0000k\u0000i\u0000n\u0000s\u0000_\u0000C\u0000I\u0000C\u0000D\u00001\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
